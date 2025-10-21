@@ -22,6 +22,35 @@ PODS:
     - ReactCommon/turbomodule/core
     - Yoga
   - DoubleConversion (1.1.6)
+  - EXConstants (17.0.8):
+    - ExpoModulesCore
+  - Expo (52.0.47):
+    - ExpoModulesCore
+  - ExpoAsset (11.0.5):
+    - ExpoModulesCore
+  - ExpoModulesCore (2.2.3):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.10.14.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsinspector
+    - React-NativeModulesApple
+    - React-RCTAppDelegate
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - fast_float (6.1.4)
   - FBLazyVector (0.76.9)
   - fmt (11.0.2)
@@ -1607,6 +1636,10 @@ DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - "datadome-react-native-datadome (from `../node_modules/@datadome/react-native-datadome`)"
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - EXConstants (from `../node_modules/expo-constants/ios`)
+  - Expo (from `../node_modules/expo`)
+  - ExpoAsset (from `../node_modules/expo-asset/ios`)
+  - ExpoModulesCore (from `../node_modules/expo-modules-core`)
   - fast_float (from `../node_modules/react-native/third-party-podspecs/fast_float.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
@@ -1684,6 +1717,14 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@datadome/react-native-datadome"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  EXConstants:
+    :path: "../node_modules/expo-constants/ios"
+  Expo:
+    :path: "../node_modules/expo"
+  ExpoAsset:
+    :path: "../node_modules/expo-asset/ios"
+  ExpoModulesCore:
+    :path: "../node_modules/expo-modules-core"
   fast_float:
     :podspec: "../node_modules/react-native/third-party-podspecs/fast_float.podspec"
   FBLazyVector:
@@ -1816,6 +1857,10 @@ SPEC CHECKSUMS:
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
   datadome-react-native-datadome: 9f902f84d81be4eb6d780e129977eb0dfcf73f68
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
+  EXConstants: fcfc75800824ac2d5c592b5bc74130bad17b146b
+  Expo: 1687edb10c76b0c0f135306d6ae245379f50ed54
+  ExpoAsset: 48386d40d53a8c1738929b3ed509bcad595b5516
+  ExpoModulesCore: 725faec070d590810d2ea5983d9f78f7cf6a38ec
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 7605ea4810e0e10ae4815292433c09bf4324ba45
   fmt: 01b82d4ca6470831d1cc0852a1af644be019e8f6
@@ -1879,8 +1924,8 @@ SPEC CHECKSUMS:
   ReactCodegen: f853a20cc9125c5521c8766b4b49375fec20648b
   ReactCommon: 300d8d9c5cb1a6cd79a67cf5d8f91e4d477195f9
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
-  Yoga: 40f19fff64dce86773bf8b602c7070796c007970
+  Yoga: feb4910aba9742cfedc059e2b2902e22ffe9954a
 
-PODFILE CHECKSUM: 6bd931c3e924c1a2d89d3b531e849ffc2b7e4421
+PODFILE CHECKSUM: 4760173fcb56843ab0db0904c9a86c7a3e463450
 
 COCOAPODS: 1.16.2
